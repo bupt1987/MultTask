@@ -1,6 +1,5 @@
 <?php
 
-// 实际用的时候因为会autoload， 不需要require文件
 require_once(__DIR__ . "/Task.php");
 require_once(__DIR__ . "/Cmd.php");
 require_once(__DIR__ . "/TaskManager.php");
