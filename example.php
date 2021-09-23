@@ -7,6 +7,7 @@ require_once(__DIR__ . "/TaskManager.php");
 
 
 if (isset($argv[1])) {
+    echo $argv[1] . "\n";
     usleep(100000);
     exit();
 }
