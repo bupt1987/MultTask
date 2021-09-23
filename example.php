@@ -12,7 +12,7 @@ if (isset($argv[1])) {
 }
 
 $oTask = new \MultTask\TaskManager();
-$oTask->setCheckTime(500000);
+$oTask->setCheckTime(100000);
 $oTask->setConcurrency(8);
 $oTask->setRunLog(true);
 
